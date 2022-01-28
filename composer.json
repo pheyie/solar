@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+        "path/to/composer/vendor/autoload.php";
+    }
+}
