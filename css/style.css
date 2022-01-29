@@ -246,15 +246,12 @@ ul{
     list-style: none;
 }
 .footer{
-    margin: 255px;
+    margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     background-color: #24262b;
     box-sizing: border-box;
     padding: 70px 0;
-}
-.container{
-    
 }
 .row{
     display: flex;
@@ -336,10 +333,6 @@ ul{
     .footer-col{
         width: 100%;
     
-    }
-    .navbar{
-        background-color: green;
-        width: 100%;
     }
 }
 
