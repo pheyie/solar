@@ -12,6 +12,6 @@ if (isset($_POST['submit']) && !empty($_POST['name'])  && !empty($_POST['email']
    $pdo->exec("INSERT INTO contact (name,message,email,phone,subject)
    values ('$name','$message','$email','$phone','$subject')");
 
-echo"thanks for the message";
+echo"$name.thanks for the message";
 }
 else{ echo"bad";}
